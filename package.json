@@ -18,7 +18,8 @@
   "author": "Ylian Saint-Hilaire <ylianst@gmail.com>",
   "main": "meshcentral.js",
   "bin": {
-    "meshcentral": "bin/meshcentral"
+    "meshcentral": "bin/meshcentral",
+    "meshcmd": "bin/meshcmd"
   },
   "license": "Apache-2.0",
   "files": [
