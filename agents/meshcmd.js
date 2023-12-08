@@ -3325,6 +3325,10 @@ function removeItemFromArray(array, element) {
     if (index !== -1) { array.splice(index, 1); }
 }
 
+if (process.argv[0].includes('node')) {
+	process.argv = process.argv.splice(1);
+}
+
 // Run MeshCmd, but before we do, we need to see if what type of service we are going to be
 var serviceName = null, serviceDisplayName = null, serviceDesc = null;
 for (var i in process.argv) {
